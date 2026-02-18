@@ -1,19 +1,19 @@
 # retail-sales-analysis-sql
-  Business Questions Addressed
+  Business Questions Addressed-
 Customer Insights: Who are our top 10% of customers by revenue, and what is their average order frequency?
 Product Performance: Which products contribute to 80% of the total revenue?
 Growth Trends: How do month-over-month sales compare across different regions?
 
-  Project Overview
+  Project Overview-
 This project transforms raw transactional data into a multi-layered business intelligence report. Using Advanced SQL, I developed a dual-perspective analysis:
 Customer-Level Reporting: Identifying high-value behavior and loyalty.
 Product-Level Analytics: Evaluating margins, growth, and contribution.
 
-  TeckStack
+  TeckStack-
 Language: SQL (T-SQL / PostgreSQL / MySQL)
 Key Features: Window Functions (LAG, RANK, SUM OVER), CTEs, Case Statements, Data Segmentation.
 
-  Analytical Deep Dives
+  Analytical Deep Dives-
 1. Customer-Level Reporting (The "Who")
 Goal: Identify top-tier customers and their purchasing consistency.
 SQL Highlight: Used RANK() and SUM() to segment customers by total spend.
@@ -38,13 +38,13 @@ Business Value: Visualizes progress toward annual targets and identifies which c
 Goal: Group products into cost buckets (Budget, Mid-Range, Premium, Luxury).
 SQL Highlight: Used CASE logic to "bin" data and analyze which price bracket is most profitable.
 
-  Key Insights
+  Key Insights-
 Customer Concentration: The top 5% of customers generate 42% of total revenue, suggesting a high dependency on a small segment.
 Seasonality: Product Category Bikes sees a 30% spike in November, whereas Category Accessories has remained stagnant for three quarters.
 Retention: Customers who make a second purchase within 30 days are 5x more likely to become long-term loyalists.
 Growth: Year-to-date cumulative sales are trending 8% higher than the previous fiscal year.
 
-How to Use
+How to Use-
 Clone this repository.
 Run the 01_database_setup.sql in your SQL environment (PostgreSQL/MySQL/SQL Server).
 Execute the analysis scripts in order to see the results.
