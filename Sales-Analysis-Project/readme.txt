@@ -51,3 +51,9 @@ Clone this repository.
 Run the 01_database_setup.sql in your SQL environment (PostgreSQL/MySQL/SQL Server). 
 Upload the data files to insert data into the tables.
 Execute the analysis scripts in order to see the results.
+
+Credits & Acknowledgements
+Data Source: This project uses a dataset provided by Baraa Khatib Salkini.
+Reference: Analysis logic inspired by the project walkthrough by Baraa Khatib Salkini. 
+Author: All SQL queries were written and optimized by me as part of a guided learning project to master advanced analytical functions.
+
